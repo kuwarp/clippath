@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.popup{
+    height: 100vh;
+     display: grid;
+    place-items: center;
+    background: linear-gradient(123deg,rgb(124, 124, 190),rgb(224, 170, 170));
+    
+    
+}
+
+.content{
+    width: 400px;
+    height: 100;
+    padding: 23px;
+    background: linear-gradient(123deg,blue,brown);
+    border-radius: 10px;
+    transition: all 2s;
+    
+clip-path: inset(0 26% 84% 10%);
+
+
+
+/* clip-path: circle(17% at 0 1%); */
+
+}
+
+.content h1{
+    margin: 12px;
+    color: rgb(228, 235, 235);
+}
+.content p{
+    margin: 12px;
+    color: rgb(58, 196, 196);
+}
+
+.content h3{
+    margin-top: 12px;
+    position:unset;
+    color: rgb(228, 235, 235);
+}
+
+.content:hover{
+    background-color: aquamarine;
+    
+clip-path: inset(0 1% 0 0);
+
+}
