@@ -17,7 +17,7 @@
     width: 400px;
     height: 100;
     padding: 23px;
-    background: linear-gradient(123deg,blue,brown);
+    background: linear-gradient(123deg,rgb(125, 125, 248),brown);
     border-radius: 10px;
     transition: all 2s;
     
