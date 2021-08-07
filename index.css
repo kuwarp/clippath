@@ -7,7 +7,7 @@
 .popup{
     height: 100vh;
      display:flex;
-    place-items: left;
+    place-items: left-center;
     background: linear-gradient(123deg,rgb(124, 124, 190),rgb(224, 170, 170));
     
     
