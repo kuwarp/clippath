@@ -21,11 +21,11 @@
     border-radius: 10px;
     transition: all 2s;
     
-clip-path: inset(0 26% 84% 10%);
+/* clip-path: inset(0 26% 84% 10%); */
 
 
 
-/* clip-path: circle(17% at 0 1%); */
+clip-path: circle(17% at 0 1%);
 
 }
 
