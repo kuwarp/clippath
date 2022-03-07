@@ -47,6 +47,6 @@ clip-path: circle(17% at 0 1%);
 .content:hover{
     background-color: aquamarine;
     
-clip-path: inset(0 1% 0 0);
+clip-path: circle(0 1% 0 0);
 
 }
